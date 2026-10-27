@@ -70,7 +70,6 @@ header ul {
     list-style: none;
     display: flex;
     gap: 28px;
-    /* flex-wrap: wrap; */
 }
 
 header nav a {
@@ -668,6 +667,8 @@ input,
     }
 
     .menu-mobile {
+        width: 92%;
+        margin: 0 auto;
         padding: 0;
     }
 
