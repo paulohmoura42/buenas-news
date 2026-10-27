@@ -21,11 +21,6 @@ a:hover {
     color: #ff5a52;
 }
 
-/* img {
-    display: block;
-    max-width: 100%;
-} */
-
 .logo {
     padding: 16px;
     display: flex;
@@ -93,7 +88,6 @@ header nav a:hover, a.atual {
     padding: 8px 24px;
     background-color: #ff5a52;
     border: solid 2px #ff5a52;
-    /* /* display: inline-block; */
     border-radius: 8px;
     font-size: 14px;
     font-weight: 600;
