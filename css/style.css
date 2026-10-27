@@ -476,14 +476,16 @@ footer {
     gap: 30px;
 }
 
-.logo-footer > div {
+.logo-footer a {
+    width: fit-content;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.logo-footer > div img {
+.logo-footer a img {
     width: 50px;
 }
 
@@ -765,6 +767,14 @@ input,
     .campo-newsletter input {
         border: 1px solid #bfcbe0;
         border-radius: 8px;
+    }
+
+    .logo-footer a img {
+        width: 30px;
+    }
+
+    .logotipo-footer {
+        font-size: 20px;
     }
 
     .copy-buenas {
